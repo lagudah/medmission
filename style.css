@@ -1,0 +1,233 @@
+
+/*----------------------------------------------------------------------------------*/
+/* basic set up*/
+/*----------------------------------------------------------------------------------*/
+
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html,body{
+    background-color: #fff;
+    color: #fff;
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-weight: 300px;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}
+.clearfix {zoom: 1}
+.clearfix:after{
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+/*----------------------------------------------------------------------------------*/
+/* RESUABLE CODE*/
+/*----------------------------------------------------------------------------------*/
+
+
+.row{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/*---HEADINGS---*/
+h1,h2,h3 {
+    font-size: 240%;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1px; 
+}
+
+h1{
+    margin-top: 0;
+    margin-bottom: 20px;
+    color:#fff;
+    word-spacing: 4px;
+}
+h2{
+    font-size: 180%;
+    word-spacing: 2px;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 35px;
+}
+h3{
+    font-size: 110%;
+    margin-bottom: 15px;
+    text-align: center;
+    color: black;
+    
+}
+
+/*----------------------------------------------------------------------------------*/
+/* HEADER */
+/*----------------------------------------------------------------------------------*/
+
+header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(resourses/css/img/medical-hero.jpg);
+    background-size: cover;
+    background-position:center;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+
+
+/* Naykas Med */
+.naykas{
+    float: left;
+    margin-top: 10px;
+    padding-left: 5px;
+}
+
+/* MAIN-NAVIGATION */
+.main-nav{
+    float: right;
+    display: inline-block;
+    list-style: none;
+    margin-top: 55px; 
+    margin-left: 15px;
+}
+
+.main-nav li{
+    display: inline-block;
+    margin-left: 40px;
+    
+}
+.main-nav li a{
+    text-decoration: none;
+}
+
+/* MAIN-TEXT */
+
+.main-text{
+    position: absolute;
+    width: 1140px;
+    top: 46%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.para-text{
+    margin-top: 25px;
+    margin-bottom: 30px;
+    line-height: 145%;
+}
+
+.main-nav li :link,
+.main-nav li :visited{
+    color: #fff;
+}
+
+.main-nav li :hover,
+.main-nav li :active{
+    color: rgba(15, 66, 206, 0.99);
+}
+
+
+/*---BUTTONS----*/
+.btn:link,
+.btn:visited,
+input[type=submit]{
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    -webkit-transition: background-color 0.2s, border 0.2s, color 0.2s;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+    
+    
+}
+
+.btn-app:link,
+.btn-app:visited,
+input[type=submit]{
+    background-color: rgba(15, 66, 206, 0.99);
+    color: antiquewhite;
+}
+.btn-don:link,
+.btn-don:visited{
+    background-color: #fff;
+    color: #0b0a0a;
+    border: 1px solid  rgba(15, 66, 206, 0.99);
+   
+}
+
+.btn:hover,
+.btn:active,
+input[type=submit]:hover,
+input[type=submit]:active{
+    background-color: aliceblue;
+}
+
+.btn-app:hover,
+.btn-app:active{
+    border: 1px solid rgba(15, 66, 206, 0.99);
+    color:  #555555;
+}
+
+.btn-don:hover,
+.btn-don:active{
+    background-color: rgba(15, 66, 206, 0.99);
+    color: antiquewhite;
+}
+
+
+/*----------------------------------------------------------------------------------*/
+/* ABOUT */
+/*----------------------------------------------------------------------------------*/
+
+.section-about{
+    background-color:  ;
+}
+.about-box-1{
+    color: black;
+    line-height: 145%;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.about-box-1 p{
+    font-size: 95%;
+}
+
+
+/*----------------------------------------------------------------------------------*/
+/* VOLUNTEER */
+/*----------------------------------------------------------------------------------*/
+
+.volunteer{
+    background-color:  rgba(18, 65, 195, 0.99);;
+    color: #fff;
+}
+.volunteer-form{
+     width: 60%;
+    margin: 0 auto;
+}
+
+input[type=text],
+input[type=email],
+select{
+    width:100%;
+    padding: 7px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+
+
+
+
+
+
+
+
+
+
