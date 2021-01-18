@@ -179,6 +179,28 @@ input[type=submit]:active{
 }
 
 
+/* Sticky navi */
+.sticky{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(130, 132, 186, 0.98);
+    -webkit-box-shadow: 0 2px 2px #efefef;
+    box-shadow: 0 2px 2px #efefef;
+    z-index: 9999;
+}
+.sticky .main-nav{margin-top: 18px;}
+
+
+.sticky .main-nav li a:link,
+.sticky .main-nav li a:visited {
+    padding: 16px 0px;
+    color: #555;
+    
+}
+
+
 /*----------------------------------------------------------------------------------*/
 /* ABOUT */
 /*----------------------------------------------------------------------------------*/
@@ -192,10 +214,54 @@ input[type=submit]:active{
     text-align: center;
     margin-left: 50px;
     margin-right: 50px;
+    margin-top: 5px;
+    margin-bottom: 45px;
 }
 
 .about-box-1 p{
     font-size: 95%;
+}
+
+/*----------------------------------------------------------------------------------*/
+/* EVENTS */
+/*----------------------------------------------------------------------------------*/
+
+.section-events{
+    padding: 0;
+}
+.events-showcase{
+    list-style: none;
+    width: 100%;
+    
+}
+.events-showcase li{
+    display: block;
+    float: left;
+    width: 25%;
+}
+.event-photo{
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    background: #000;
+}
+
+.event-photo img {
+    opacity: 0.7;
+    width:100%;
+    height: auto;
+    -webkit-transform: scale(1.15);
+    transform: scale(1.15);
+    -webkit-transition: -webkit-transform 0.5s opacity 0.5s;
+    transition: -webkit-transform 0.5s opacity 0.5s;
+    transition: transform 0.5s opacity 0.5s;
+    transition: transform 0.5s opacity 0.5s, -webkit-transform 0.5s opacity 0.5s;
+    
+}
+.event-photo img:hover{
+    opacity: 1;
+    -webkit-transform: scale(1.03);
+    transform: scale(1.03);
 }
 
 
@@ -204,30 +270,132 @@ input[type=submit]:active{
 /*----------------------------------------------------------------------------------*/
 
 .volunteer{
-    background-color:  rgba(18, 65, 195, 0.99);;
-    color: #fff;
+    background-color:  #f4f4f4;
+    color: #1b1a24;
 }
 .volunteer-form{
-     width: 60%;
+     width: 147%;
     margin: 0 auto;
+    padding: auto o;
 }
 
 input[type=text],
 input[type=email],
+input[type=tel],
 select{
-    width:100%;
+    width:35%;
     padding: 7px;
     border-radius: 3px;
     border: 1px solid #ccc;
 }
+checkbox{
+    width: 0%;
+    padding: 100px;
+}
+
+
+/*----------------------------------------------------------------------------------*/
+/*CONTACT US */
+/*----------------------------------------------------------------------------------*/
+.contact-us{
+    background-image:url(resourses/css/img/kv-contact-us-xs.jpg);
+    background-size: cover;
+    background-position:center;
+    height: 52vh;
+}
+.contact-us-box-1, {
+    margin-top: 125px;
+    margin-left: 50px;    
+}
+
+.contact-us-box-1,{
+    color: #171414;
+    text-align: center;
+}
 
 
 
+/*----------------------------------------------------------------------------------*/
+/*REGISTER */
+/*----------------------------------------------------------------------------------*/
+
+.register{
+    background-color:  #f4f4f4;
+    color: #1b1a24;
+}
+.register-form{
+     width: 147%;
+    margin: 0 auto;
+    padding: auto o;
+}
+.register-form h3{
+    text-align: left;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+input[type=text],
+input[type=email],
+input[type=tel],
+select,textarea{
+    width:35%;
+    padding: 7px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+checkbox{
+    width: 0%;
+    padding: 100px;
+}
 
 
 
+/*----------------------------------------------------------------------------------*/
+/* FOOTER */
+/*----------------------------------------------------------------------------------*/
+.footer-override{
+    background-color: rgba(15, 66, 206, 0.99);
+    padding: 10px;
+    font-size: 100%;
+    color: #fff;
 
+}
 
+.footer-nav{
+    list-style: none;
+    float: left;
+    text-decoration: none;
 
+}
+.call{
+    list-style: none;
+}
+.email{
+    list-style: none;
+}
+.call li a{
+    list-style: none;
+    float: left;
+    text-decoration: none;
+    color: white;
+    padding-left: 50px;
+    
+}
+.email li a{
+    list-style: none;
+    float: left;
+    text-decoration: none;
+    color: white;
+    padding-left: 50px;
+    
+}
+.list{
+    list-style: none;
+}
 
+ion-icon{
+    font-size: 150%;
+    padding-right: 10px;
+    padding-top: 10px;
+}
 

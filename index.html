@@ -15,10 +15,10 @@
                     </div>
                     <ul class="main-nav">
                         <li><a href="#">Home</a></li>
-                        <li><a href="#">About us</a></li>
-                        <li><a href="#">Events</a></li>
-                        <li><a href="#">Voluteer</a></li>
-                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#about">About us</a></li>
+                        <li><a href="#events">Events</a></li>
+                        <li><a href="#volunteer">Voluteer</a></li>
+                        <li><a href="#register">Register</a></li>
                     </ul>
                 </div>
             </nav>
@@ -35,7 +35,7 @@
         
         </header>
         
-        <section class="section-about">
+        <section class="section-about" id="about">
             <div class="row">
                 <h2>About us</h2>
             </div>
@@ -70,7 +70,68 @@
             </div>
         </section>
         
-        <section class="volunteer">
+        <section class="section-events" id="events">
+            <ul class="events-showcase clearfix">
+                <li>
+                    <figure class="event-photo">
+                        <img src="resourses/img/IMG_1967.JPG" alt="grouo photo">
+                    </figure>
+                
+                </li>
+                 <li>
+                    <figure class="event-photo">
+                        <img src="resourses/img/IMG_1969.JPG" alt="Simple italian pizza with cherry tomatoes">
+                    </figure>
+                
+                </li>
+                 <li>
+                    <figure class="event-photo">
+                        <img src="resourses/img/IMG_1978%20(1).JPG" alt="Chicken breast steak with vegetables ">
+                    </figure>
+                
+                </li>
+                 <li>
+                    <figure class="event-photo">
+                        <img src="resourses/img/IMG_1984.JPG" alt="utumn pumpkin soup">
+                    </figure>
+                
+                </li>
+        
+            </ul>
+            <ul class="events-showcase clearfix">
+                <li>
+                    <figure class="event-photo">
+                        <img src="resourses/img/IMG_1998.JPG" alt="Paleo beef steak with vegetables">
+                    </figure>
+                
+                </li>
+                 <li>
+                    <figure class="event-photo">
+                        <img src="resourses/img/IMG_2006.JPG" alt="Healthy baguette with egg and vegetables">
+                    </figure>
+                
+                </li>
+                 <li>
+                    <figure class="event-photo">
+                        <img src="resourses/img/IMG_2009.JPG" alt="Burger with cheddar and bacon ">
+                    </figure>
+                
+                </li>
+                 <li>
+                    <figure class="event-photo">
+                        <img src="resourses/img/IMG_1987.JPG" alt="Granola with cherries and strawberries">
+                    </figure>
+                
+                </li>
+        
+            </ul>
+            
+            
+            
+            
+        </section>
+        
+        <section class="volunteer" id="volunteer">
             <div class="row">
                 <h2>Join Our Team Today!</h2>
             </div>
@@ -100,7 +161,47 @@
                             <label for="number">Phone number</label>
                         </div>
                         <div class="col span-2-of-3">
-                            <input type="text" name="name" id="name" placeholder="Enter your phone number here" required>        
+                            <input type="tel" name="name" id="name" placeholder="Enter your phone number here" required>        
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="number">License number</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="tel" name="name" id="name" placeholder="Enter your licencse here" required>        
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="address">Address</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="text" name="name" id="name" placeholder="Enter your Address" required>        
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="profession">Profession</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="text" name="profession" id="name" placeholder="Enter your profession here" required>        
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="expertise">Area Of Expertise</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="text" name="name" id="name" placeholder="Area of expertise" required>        
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="availability">Availability</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="text" name="availability" id="name" placeholder="availability" required>        
                         </div>
                     </div>
                     
@@ -114,6 +215,61 @@
                                 <option value="male" selected>Male</option>
                                 <option value="female">Female</option>
                             </select>        
+                        </div>
+                    </div>
+        
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="name">I already have a Nigeria visa/Nigeria permanent resident/citizen</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="checkbox" name="news" id="news" > yes,please        
+                        </div>
+                    </div>
+                    
+                     <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="name">I need to obtain a Nigeria Visa</label>
+                        </div>
+                         <div class="col span-2-of-3">
+                            <input type="checkbox" name="news" id="news" > yes,please        
+                        </div>
+                    
+                    </div>
+                    
+                     <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="name">I will purchase tictek with the group (deadline may 15 2021)</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="checkbox" name="news" id="news" > yes,please        
+                        </div>
+                    </div>
+                    
+                     <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="name">I will purchase my own ticket</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="checkbox" name="news" id="news"> yes,please        
+                        </div>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="name">I am unable to participate but will like to donata medical/health product supplies.Please call +1 267 304 2156 or + 1 267 415 8382 in USA 0r 08033480673 in Nigeria for Details. Deadline is MAY 15,2021</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="checkbox" name="news" id="news"> yes,please        
+                        </div>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="name">I am unable to participate at the time, but i will like to graciously contribute by <br> <b>Mail/Write a Tax-Deductible Check /Money Order to <br>"Naykas Healthcare inc."<br>Memo: 2021 Medical Mission Donations<br>708 W.Girard Ave Philadelphia PA 19123 Alternatively,you may :<br>Donate via the app: Zelle to 267 304 2156 or visit : <a href="https://www.gofundme.com/Medical-Mission2Nigeria">https://www.gofundme.com/Medical-Mission2Nigeria</b> </a></label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="checkbox" name="news" id="news"> yes,please        
                         </div>
                     </div>
                     
@@ -130,7 +286,279 @@
                 </form>    
             </div>
         </section>
+        
+        <section class="contact-us">
+            <div class="row">
+                <div class=" col span-1-of-2">
+                    <div class="contact-box-1">
+                        <h3> <ion-icon name="call-outline"></ion-icon>please call the line</h3>
+                        <p>+1 267 304 2156 , +1 267 415 8382 USA</p>
+                        <p>+234 3348 0673 NGN</p>
+                    </div>
+                </div>
+                
+                <div class=" col span-1-of-2">
+                    <div class="contact-box-1">
+                        <h3><ion-icon name="mail-outline"></ion-icon> Email</h3>
+                        <p>ogunstate2013@gmail.com</p>
+                        <p>naykashs2015@gmail.com</p>
+                    </div>
+                </div>
+            </div>    
+        </section>
+        
+        <section class="register" id="register">
+            <div class="row">
+                <h2>Registeration Form !</h2>
+            </div>
+            <div class="row">
+                <form method="post" action="mailer.php" class="Register-form">
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="date">Today's Date</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="date" name="name" id="date" placeholder="date">        
+                        </div>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="email">My Doctor's Name</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="text" name="name" id="name" placeholder="Enter name of doctor here">        
+                        </div>
+                    </div>
+                    
+                    <div class="row">
+                        <h3>PATIENT INFORMATION</h3>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="patient-name">Full Name</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="tel" name="name" id="name" placeholder="Full Name">        
+                        </div>
+                    </div>
+                
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="number">Marital Status</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="tel" name="name" id="name" placeholder="Enter Marital Status">        
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="address">Address</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="text" name="name" id="name" placeholder="Enter your Address">        
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="address">Birth Date</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="date" name="birth" id="birth" >       
+                        </div>  
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="address">Age</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="tel" name="age" id="age" placeholder="Enter your Age">        
+                        </div>
+                    </div>
+                    <div class="row">
+                        <label for="sex">Sex</label>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <input type="radio" name="gender">
+                            <label for="male">Male</label><br>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <input type="radio" name="gender">
+                            <label for="female">Female</label><br>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="emergency">Emergency No :</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="tel" name="Enum" id="age" placeholder="Emergency No :">        
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="emergency">Phone Number :</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="tel" name="num" id="num" placeholder="Phone Number">        
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="occupation">Occupation :</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="text" name="occ" id="occ" placeholder="occupation">        
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="employer">Employer :</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="text" name="emp" id="emp" placeholder="Employer">        
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="Employer-number">Employer No :</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="tel" name="emp-num" id="emp-num" placeholder="Employer Number">        
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label>Medical History : </label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <textarea name="message" ></textarea>       
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label>Surgical History :</label>
+                        
+                        </div>
+                        <div class="col span-2-of-3">
+                            <textarea name="message"></textarea>       
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label>Medicatin Use Daily :</label>
+                        
+                        </div>
+                        <div class="col span-2-of-3">
+                            <textarea name="message" ></textarea>       
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label>Chief complaint/Reason to see doctor :</label>
+                        
+                        </div>
+                        <div class="col span-2-of-3">
+                            <textarea name="message" ></textarea>       
+                        </div>
+                    </div>
+                    
+                    
+                    <div class="row">
+                        <h3>INCASE OF EMERGENCY</h3>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="friend">Name of local friend or relative (not living at same address) :</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="text" name="friendd" id="friend" >        
+                        </div>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="relationship">Relationship to patient :</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="text" name="emp-num" id="emp-num">        
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="rel-num">Phone No :</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="tel" name="emp-num" id="emp-num" placeholder="Phone Number">        
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="rel-work-num">Work No :</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="tel" name="work-num" id="work-num" placeholder="Work Number">        
+                        </div>
+                    </div>
+                    
+                    <div class="row">
+                        <h4>The above information is true to the of my knowledge.<br>I authorize the medical mission provider to see me,<br> and i understand that i must follow up with my regular <br>doctor about treatment plans and recommendation below<br> as soon as psossible.</h4>
+                    </div>
+                    
+                    <div class="row">
+                        <h3>DOCTORS'S RECOMMENDATION AND TREATMENT PLANS</h3>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label>Diagnosis :</label>
+                        
+                        </div>
+                        <div class="col span-2-of-3">
+                            <textarea name="message" ></textarea>       
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label>Rx :</label>
+                        
+                        </div>
+                        <div class="col span-2-of-3">
+                            <textarea name="message" ></textarea>       
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+        <footer class="footer-override">
+            <div class="row">
+                <div class="col span-1-of-2">
+                    <ul class="call">
+                        <li><a href="#"><ion-icon name="call-outline"></ion-icon>  +1 267 304 2156 , +234 3348 0673</a></li>
+                    </ul>  
+                </div>
+                <div class="col span-1-of-2">
+                    <ul class="email">
+                        <li><a href="#"><ion-icon name="mail-unread-outline"></ion-icon>ogunstate2013@gmail.com</a></li>
+                    </ul>  
+                </div>
+            </div>
+        </footer>
+            
+    <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>  
+        
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+        
+    <script src="resourses/js/script.js"></script>
+    
     </body>
+    
+    
 </html>
 
 
@@ -138,17 +566,11 @@
 
 
 
+            
 
 
-
-
-
-
-
-
-
-
-
+                   
+        
 
 
 
